@@ -21,6 +21,7 @@
   border: 2px solid #00FFFF;
   padding: 4px;
   background-color: #DCDCDC;
+  width: 800px;
 }
 
 
@@ -123,6 +124,11 @@
   margin: 20px;
 }
 
-#float-right {
-  float: right;
+.float-right {
+  text-align: right;
 }
+
+/*
+.line1 {
+  float: right;
+}*/
