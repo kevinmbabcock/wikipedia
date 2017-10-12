@@ -1,0 +1,11 @@
+.toolbar {
+  width: 150px;
+  float: left;
+  margin: 15px;
+  border: 2px solid #00FFFF;
+  padding: 4px;
+}
+
+.toolbar li {
+  font-size: 12px;
+}
