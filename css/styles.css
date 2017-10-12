@@ -11,6 +11,10 @@
   font-size: 12px;
 }
 
+.toolbar ul {
+  float: right;
+}
+
 .header {
   float: left;
   margin: 8px;
@@ -19,9 +23,7 @@
   background-color: #DCDCDC;
 }
 
-.toolbar ul {
-  float: right;
-}
+
 
 .test {
   float: right;
@@ -45,13 +47,14 @@
   margin: 4px;
 }
 
-#image-right {
+#image-left {
   float: left;
 }
 
 .left {
   float: left;
   width: 400px;
+  height: 1300px;
   background-color: #e6fee6;
   margin: 8px;
   border: 2px solid #98fb98;
@@ -66,22 +69,6 @@
   font-size: 20px;
 }
 
-/*.left h2:first-child {
-  margin: 4px;
-  border: 2px solid #DCDCDC;
-  padding: 6px;
-  background-color: #09f609;
-  font-size: 20px;
-}*/
-
-/*.left h2:last-child {
-  margin: 4px;
-  border: 2px solid #DCDCDC;
-  padding: 6px;
-  background-color: #09f609;
-  font-size: 20px;
-}*/
-
 #bottom-header {
   margin-top: 50px;
 }
@@ -94,10 +81,12 @@
 .right {
   float: left;
   width: 400px;
+  height: 1300px;
   background-color: #ccf5ff;
   margin: 8px;
   border: 2px solid #4da6ff;
   padding: 6px;
+  line-height: 25px;
 }
 
 .right h2 {
@@ -106,4 +95,34 @@
   padding: 6px;
   background-color: #4d94ff;
   font-size: 20px;
+}
+
+.bottom {
+  float: left;
+  margin: 8px;
+  border: 2px solid #9966cc;
+  padding: 6px;
+  background-color: #e6d9f2;
+  width: 800px;
+}
+
+.bottom h2 {
+  margin: 4px;
+  border: 2px solid #7339ac;
+  padding: 6px;
+  background-color: #9966cc;
+  font-size: 20px;
+}
+
+.bottom img {
+  float: left;
+  margin: 10px;
+}
+
+.bottom p {
+  margin: 20px;
+}
+
+#float-right {
+  float: right;
 }
