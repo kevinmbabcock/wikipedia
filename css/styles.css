@@ -4,8 +4,85 @@
   margin: 15px;
   border: 2px solid #00FFFF;
   padding: 4px;
+  background-color: #DCDCDC;
 }
 
 .toolbar li {
   font-size: 12px;
+}
+
+.header {
+  float: left;
+  margin: 8px;
+  border: 2px solid #00FFFF;
+  padding: 4px;
+  background-color: #DCDCDC;
+}
+
+.toolbar ul {
+  float: right;
+}
+
+.test {
+  float: right;
+  width: 150px;
+  margin-top: 40px;
+}
+
+.title {
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+
+.content img {
+  float: right;
+  margin: 4px;
+}
+
+#image-right {
+  float: left;
+}
+
+.left {
+  float: left;
+  width: 400px;
+  background-color: #e6fee6;
+  margin: 8px;
+  border: 2px solid #98fb98;
+  padding: 6px;
+}
+
+.left h2 {
+  margin: 4px;
+  border: 2px solid #DCDCDC;
+  padding: 6px;
+  background-color: #09f609;
+  font-size: 20px;
+}
+
+.bottom-header {
+  margin-top: 150px;
+}
+
+.links {
+  float: right;
+  font-weight: bold;
+}
+
+.right {
+  float: left;
+  width: 400px;
+  background-color: #ccf5ff;
+  margin: 8px;
+  border: 2px solid #98fb98;
+  padding: 6px;
+}
+
+.right h2 {
+  margin: 4px;
+  border: 2px solid #DCDCDC;
+  padding: 6px;
+  background-color: #4d94ff;
+  font-size: 20px;
 }
